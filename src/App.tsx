@@ -112,7 +112,7 @@ function TodoList() {
 
   return (
     <ul>
-      {filtered?.map((i) => (
+      {filtered.map((i) => (
         <li key={i.id} id={`todo_${i.id}`}>
           <input
             type="checkbox"
